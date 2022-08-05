@@ -14,6 +14,18 @@
 
 # print(my_multiply(l))
 
+# Изменил содержимое файла - Задание 6
+def my_multiply(l):
+    c=1
+    for item in l:
+        c *= item
+    return c
+l = [1,1,3,4,5]
+
+
+print(my_multiply(l))
+
+
 
 """Задание 2
 Напишите функцию для нахождения минимума в
